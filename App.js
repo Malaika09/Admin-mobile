@@ -70,8 +70,8 @@ const productslist = ( { navigation } ) =>{
             list.map((item) => 
             <View  style={ styles.columns}> 
             <Text
-             onPress = {() =>
-              navigation.navigate('productedetails', {
+              onPress = {() =>
+              navigation.navigate('productdetails', {
                 id: item.id, 
                 img: item.img,
                 name: item.name,
